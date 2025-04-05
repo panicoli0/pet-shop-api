@@ -5,6 +5,20 @@ const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
+// Custom search route
+server.get('/pets/search', (req, res) => {
+    const query = req.query.q.toLowerCase();
+    const pets = router.db.get('pets').value();
+
+    const filteredPets = pets.filter(pet =>
+        pet.name.toLowerCase().includes(query) ||
+        pet.breed.toLowerCase().includes(query) ||
+        pet.type.toLowerCase().includes(query)
+    );
+
+    res.json(filteredPets);
+});
+
 server.use(cors());
 server.use(middlewares);
 server.use(router);
