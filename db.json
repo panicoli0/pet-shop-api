@@ -6,7 +6,7 @@
             "age": 3,
             "type": "Dog",
             "breed": "Labrador",
-            "imageUrl": "https://example.com/images/bella.jpg"
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pet-shop-app-f8ab6.firebasestorage.app/o/resources%2Fbuddy2.jpeg?alt=media&token=c8bb3786-acd6-4bd7-bd8d-b3020b13eed4"
         },
         {
             "id": 2,
@@ -14,23 +14,7 @@
             "age": 2,
             "type": "Cat",
             "breed": "Siamese",
-            "imageUrl": "https://example.com/images/max.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Charlie",
-            "age": 4,
-            "type": "Dog",
-            "breed": "Beagle",
-            "imageUrl": "https://example.com/images/charlie.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Molly",
-            "age": 1,
-            "type": "Cat",
-            "breed": "Persian",
-            "imageUrl": "https://example.com/images/molly.jpg"
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pet-shop-app-f8ab6.firebasestorage.app/o/resources%2Fcat1.jpeg?alt=media&token=4c06d6df-42b3-4866-acbd-8dd88da73ba4"
         }
     ]
 }
