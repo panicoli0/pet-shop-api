@@ -6,7 +6,7 @@
             "age": 3,
             "type": "Dog",
             "breed": "Labrador",
-            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pet-shop-app-f8ab6.firebasestorage.app/o/resources%2Fbuddy2.jpeg?alt=media&token=c8bb3786-acd6-4bd7-bd8d-b3020b13eed4"
+            "imageUrl": "resources/images/buddy2.jpeg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "age": 2,
             "type": "Cat",
             "breed": "Siamese",
-            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pet-shop-app-f8ab6.firebasestorage.app/o/resources%2Fcat1.jpeg?alt=media&token=4c06d6df-42b3-4866-acbd-8dd88da73ba4"
+            "imageUrl": "resources/images/eclair.webp"
         }
     ]
 }
