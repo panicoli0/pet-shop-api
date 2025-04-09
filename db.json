@@ -14,7 +14,7 @@
             "age": 2,
             "type": "Cat",
             "breed": "Siamese",
-            "imageUrl": "resources/images/eclair.webp"
+            "imageUrl": "resources/images/cat1.jpeg"
         }
     ]
 }
